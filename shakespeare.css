@@ -36,3 +36,28 @@
 .gaoler{
     color: goldenrod;
 }
+table{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+table,td,th{
+    border: 3px solid brown;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+
+}
+th{
+    text-decoration: underline;
+    color: #123456;
+    font-size: large;
+}
+td{
+    color: rebeccapurple;
+    margin: 1px;
+}
+tr:nth-child(even){
+    background-color: lightgrey
+}
